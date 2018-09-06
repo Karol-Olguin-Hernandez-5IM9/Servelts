@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/09/2018, 08:01:49 AM
+    Author     : Alumno
+*/
+
+
+body{
+    background-color: #98d6eb;
+    font-family: 'Exo', 'Verdana';
+    font-size: 13px;
+    
+}
+
+h2{
+    color: #0a764f;
+    padding-left: 10px;
+    font-family: 'Krona One', 'Arial black';
+    font-size: 18px;
+}
+
+h3{
+    color: darkmagenta;
+    font-family: 'Krona One', 'Arial';
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+hr{
+    border-color: rgb(179, 0, 71);
+}
+
+.wea{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient( rgba(250, 128, 114,0.35),rgba(254, 233, 230,0.35)); 
+}
+
+.Operacion{
+    background: rgba(255, 153, 153,0.50);
+    color: darkred;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: 'Exo 2', 'Verdana';
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.No1, .No2{
+    height: 15px;
+    width: 50px;
+    border-style: dotted;
+    border-color: darkgoldenrod;
+    background-color: lightcyan;
+}
+
+.Aceptar{
+    color: darkgoldenrod;
+    font-family: 'Audiowide', 'Verdana';
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+
+.Aceptar:hover{
+    background-color: goldenrod;
+}
+
+.Aceptar:active{
+    background-color: goldenrod;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
